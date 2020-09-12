@@ -1,8 +1,40 @@
+
 p{
-  font-family:Calibri;}
-h1,h2,h3{
-   font-family:'TimesNewRoman';
-   color:blue;}
+  font-family:'Calibri';
+}
+h1,h2{
+  font-family:'Courier New', Courier, monospace;
+  color: red
+  }
 body{
-  font-family:'CourierNew';
-  color:blue;}
+  font-family:'Calibri';
+  color:blue;
+}
+
+/* link */
+a:link {
+  color:red;
+}
+a:visited {
+  color:green;
+}
+
+/* submit button */
+input[type="submit"]: hover {background-color:red;}
+input[type="submit"]: active {background-color:orange;} 
+
+/* list */
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: lower-roman;
+}
+
+/* table */
+tr:hover {
+  background-color: lightblue;
+}
+tr:nth-child(even){
+  background-color: lightgray;
+}
