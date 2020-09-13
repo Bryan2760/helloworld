@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>Form Page</title>
+  <link href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+</head>
+<body>
+
+<!--Form and h2&h4-->
+
+<p>Click here to go back to the homepage: <a href ="index.html">Home</a> </p>
+<form>
+<h2>Name: <input type="text" Name="name"></h2>
+<h2>Password: <input type="password" Password="pass"></h2>
+<h4>How many pets do you own?</h4>
+<!--Radio buttons-->
+<table>
+  <td>
+    Amount of animals in household:<br>
+    <input type="radio" name="pet#" value = "0"> 0 Animals <br>
+    <input type="radio" name="pet#" value = "1"> 1 Animals <br>
+    <input type="radio" name="pet#" value = "2"> 2 Or More Animals <br>
+  </td>
+</table>
+
+<!--Checkboxes-->
+<h4>Checkboxes</h4>
+<table>
+  <td>
+    <input type="checkbox" name=newsletter value = yes>I agree to sign up receive newsletter <br>
+    <input type="checkbox" name=newsletter value = yes>I will donate $1,000,000 dollars
+  </td>
+</table>
+<!--Date input-->
+<br>
+    <input type="date" name="dob"/>
+<br>
+<p>
+  Preffered Shiba Inu Color:
+</p>
+<!--Multiple select box-->
+<table>
+  <td>
+    <select name="color">
+      <option value="red">Red</option>
+      <option value="black">Black</option>
+      <option value="white">White</option>
+      <option value="Sesame">Sesame</option>
+    </select>
+  </td>
+</table>
+<!--Submit Button-->
+<input type="submit" value="submit"> <input type="reset">
+</form>
+
+</body>
+</html>
